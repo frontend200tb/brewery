@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Иван Каширин" />
+    <meta name="copyright" content="200Terabyte Web Studio" />
+    <meta name="description" content="Учебная верстка проекта Brewery" />
+    <meta
+      name="keywords"
+      content="frontend200tb, верстка, brewery, frontend, HTML, CSS"
+    />
+
+    <title>frontend200tb brewery</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <h1 class="logo"><a href="index.html">Brewery</a></h1>
+
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="index.html"><span>Home</span></a>
+                </li>
+                <li>
+                  <a href="news.html"><span>Fresh News</span></a>
+                </li>
+                <li>
+                  <a href="history.html"><span>Our History</span></a>
+                </li>
+                <li>
+                  <a href="beer.html"><span>Our Beer</span></a>
+                </li>
+                <li class="current">
+                  <a href="contacts.html"><span>Contacts</span></a>
+                </li>
+                <li>
+                  <a href="sitemap.html"><span>Sitemap</span></a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-indent">
+              <address>
+                <span class="fleft"
+                  ><b>Zip Code:</b>50122<br />
+                  <b>Country:</b>USA<br />
+                  <b>City:</b>New York<br />
+                  <b>Telephone:</b>+354 5635600</span
+                >
+                <span class="extra-wrap"
+                  ><strong>Miscellaneous info:</strong>Sed ut perspiciatis unde
+                  omnis iste natus error sit voluptatem accusantium doloremque
+                  laudantium, totam rem aperiam, eaque ipsa quae.</span
+                >
+              </address>
+            </div>
+          </div>
+        </div>
+        <!-- /container -->
+      </header>
+      <!-- main -->
+      <main class="main">
+        <div class="container">
+          <div class="main-content">
+            <h2>Contact Form</h2>
+            <div class="box">
+              <div class="left-top-corner">
+                <div class="right-top-corner">
+                  <div class="border-top"></div>
+                </div>
+              </div>
+              <div class="xcontent">
+                <div class="border-left">
+                  <div class="border-right">
+                    <div class="inner1">
+                      <form id="contacts-form" action="">
+                        <fieldset>
+                          <div class="field">
+                            <label>Full Name:</label>
+                            <input type="text" value="" />
+                          </div>
+                          <div class="field">
+                            <label>E-Mail Address:</label>
+                            <input type="email" value="" />
+                          </div>
+                          <div class="field">
+                            <label>Enquiry:</label>
+                            <textarea cols="1" rows="1"></textarea>
+                          </div>
+                          <div class="alignright">
+                            <a
+                              href="#"
+                              onclick="document.getElementById('contacts-form').reset()"
+                              class="alt"
+                              >Clear</a
+                            >
+                            &nbsp; &nbsp;
+                            <a
+                              href="#"
+                              onclick="document.getElementById('contacts-form').submit()"
+                              >Send</a
+                            >
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="left-bot-corner">
+                <div class="right-bot-corner">
+                  <div class="border-bot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-footer"></div>
+        </div>
+        <!-- /container -->
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-data">
+              <span class="footer-copyright">©</span>
+              <span class="footer-year">2022</span>
+              <a
+                class="footer-github"
+                href="https://github.com/frontend200tb"
+                title="frontend200tb"
+                target="_blank"
+                >frontend200tb</a
+              >
+            </div>
+
+            <a
+              class="footer-logo"
+              href="https://frontend200tb.github.io/"
+              title="200Terabyte Web Studio"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
